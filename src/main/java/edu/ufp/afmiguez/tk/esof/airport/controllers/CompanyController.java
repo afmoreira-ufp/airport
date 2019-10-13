@@ -28,10 +28,13 @@ public class CompanyController {
 
     @PostMapping(produces = MediaType.APPLICATION_JSON_UTF8_VALUE,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<Company> createNewCompany(@RequestBody Company company){
-        /*
-        TODO some checks are missing
-         */
-        return ResponseEntity.ok(this.companyRepo.save(company));
+
+        try {
+            return ResponseEntity.ok(this.companyRepo.save(company));
+        }catch(Exception e){
+            return ResponseEntity.badRequest().build();
+        }
+
     }
 
 

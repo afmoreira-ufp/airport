@@ -3,10 +3,7 @@ package edu.ufp.afmiguez.tk.esof.airport.models;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -14,6 +11,7 @@ import java.util.Set;
 @Entity
 @NoArgsConstructor
 public class Company extends BaseModel{
+    @Column(unique = true)
     private String name;
 
     @OneToMany(cascade = CascadeType.ALL)
