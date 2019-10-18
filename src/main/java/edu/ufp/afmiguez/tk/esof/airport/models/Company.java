@@ -17,7 +17,7 @@ public class Company extends BaseModel{
     @OneToMany(cascade = CascadeType.ALL)
     private Set<Flight> flights=new HashSet<>();
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL,mappedBy = "company",fetch = FetchType.LAZY)
     private Set<Pilot> pilots=new HashSet<>();
 
     public Company(String name) {
