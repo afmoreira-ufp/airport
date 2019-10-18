@@ -15,6 +15,7 @@ import java.util.Set;
 @Entity
 @NoArgsConstructor
 public class Flight extends BaseModel {
+
     private LocalDate date;
 
     private String flightNumber;

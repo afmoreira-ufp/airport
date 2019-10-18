@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="157165db-ec99-4a14-aa90-a8c269d852d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ufp/afmiguez/tk/esof/airport/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ufp/afmiguez/tk/esof/airport/models/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ufp/afmiguez/tk/esof/airport/models/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ufp/afmiguez/tk/esof/airport/models/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ufp/afmiguez/tk/esof/airport/models/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ufp/afmiguez/tk/esof/airport/models/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../airport-httpclient" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -39,7 +43,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,7 +109,9 @@
       <workItem from="1570952958839" duration="1224000" />
       <workItem from="1570990866558" duration="2162000" />
       <workItem from="1571161440549" duration="219000" />
-      <workItem from="1571161685231" duration="25000" />
+      <workItem from="1571161685231" duration="307000" />
+      <workItem from="1571229622086" duration="5982000" />
+      <workItem from="1571252125083" duration="1724000" />
     </task>
     <servers />
   </component>
